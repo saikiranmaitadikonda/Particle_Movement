@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C209F7E41C870D8A00BA21CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C209F7E31C870D8A00BA21CA /* main.cpp */; };
+		C209F7EB1C870E0100BA21CA /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C209F7EA1C870E0100BA21CA /* SDL2.framework */; };
+		C209F7EE1C870E8F00BA21CA /* Window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C209F7EC1C870E8F00BA21CA /* Window.cpp */; };
+		C209F7F11C871CBF00BA21CA /* Element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C209F7EF1C871CBF00BA21CA /* Element.cpp */; };
+		C209F7F41C87226F00BA21CA /* Movement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C209F7F21C87226F00BA21CA /* Movement.cpp */; };
+		C224535D1C8B80320067B785 /* ElementException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C224535B1C8B80320067B785 /* ElementException.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C209F7DE1C870D8A00BA21CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C209F7E01C870D8A00BA21CA /* ParticleMotion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParticleMotion; sourceTree = BUILT_PRODUCTS_DIR; };
+		C209F7E31C870D8A00BA21CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C209F7EA1C870E0100BA21CA /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
+		C209F7EC1C870E8F00BA21CA /* Window.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Window.cpp; path = Classes/Window.cpp; sourceTree = "<group>"; };
+		C209F7ED1C870E8F00BA21CA /* Window.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Window.hpp; path = Classes/Window.hpp; sourceTree = "<group>"; };
+		C209F7EF1C871CBF00BA21CA /* Element.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Element.cpp; path = Classes/Element.cpp; sourceTree = "<group>"; };
+		C209F7F01C871CBF00BA21CA /* Element.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Element.hpp; path = Classes/Element.hpp; sourceTree = "<group>"; };
+		C209F7F21C87226F00BA21CA /* Movement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Movement.cpp; path = Classes/Movement.cpp; sourceTree = "<group>"; };
+		C209F7F31C87226F00BA21CA /* Movement.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Movement.hpp; path = Classes/Movement.hpp; sourceTree = "<group>"; };
+		C224535B1C8B80320067B785 /* ElementException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ElementException.cpp; path = Classes/ElementException.cpp; sourceTree = "<group>"; };
+		C224535C1C8B80320067B785 /* ElementException.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ElementException.hpp; path = Classes/ElementException.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C209F7DD1C870D8A00BA21CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C209F7EB1C870E0100BA21CA /* SDL2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C209F7D71C870D8A00BA21CA = {
+			isa = PBXGroup;
+			children = (
+				C209F7EA1C870E0100BA21CA /* SDL2.framework */,
+				C209F7E21C870D8A00BA21CA /* ParticleMotion */,
+				C209F7E11C870D8A00BA21CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C209F7E11C870D8A00BA21CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C209F7E01C870D8A00BA21CA /* ParticleMotion */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C209F7E21C870D8A00BA21CA /* ParticleMotion */ = {
+			isa = PBXGroup;
+			children = (
+				C209F7E31C870D8A00BA21CA /* main.cpp */,
+				C209F7ED1C870E8F00BA21CA /* Window.hpp */,
+				C209F7EC1C870E8F00BA21CA /* Window.cpp */,
+				C209F7F01C871CBF00BA21CA /* Element.hpp */,
+				C209F7EF1C871CBF00BA21CA /* Element.cpp */,
+				C209F7F31C87226F00BA21CA /* Movement.hpp */,
+				C209F7F21C87226F00BA21CA /* Movement.cpp */,
+				C224535C1C8B80320067B785 /* ElementException.hpp */,
+				C224535B1C8B80320067B785 /* ElementException.cpp */,
+			);
+			path = ParticleMotion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C209F7DF1C870D8A00BA21CA /* ParticleMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C209F7E71C870D8A00BA21CA /* Build configuration list for PBXNativeTarget "ParticleMotion" */;
+			buildPhases = (
+				C209F7DC1C870D8A00BA21CA /* Sources */,
+				C209F7DD1C870D8A00BA21CA /* Frameworks */,
+				C209F7DE1C870D8A00BA21CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParticleMotion;
+			productName = ParticleMotion;
+			productReference = C209F7E01C870D8A00BA21CA /* ParticleMotion */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C209F7D81C870D8A00BA21CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Koka;
+				TargetAttributes = {
+					C209F7DF1C870D8A00BA21CA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C209F7DB1C870D8A00BA21CA /* Build configuration list for PBXProject "ParticleMotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C209F7D71C870D8A00BA21CA;
+			productRefGroup = C209F7E11C870D8A00BA21CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C209F7DF1C870D8A00BA21CA /* ParticleMotion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C209F7DC1C870D8A00BA21CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C209F7F41C87226F00BA21CA /* Movement.cpp in Sources */,
+				C209F7F11C871CBF00BA21CA /* Element.cpp in Sources */,
+				C224535D1C8B80320067B785 /* ElementException.cpp in Sources */,
+				C209F7E41C870D8A00BA21CA /* main.cpp in Sources */,
+				C209F7EE1C870E8F00BA21CA /* Window.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C209F7E51C870D8A00BA21CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C209F7E61C870D8A00BA21CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C209F7E81C870D8A00BA21CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C209F7E91C870D8A00BA21CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C209F7DB1C870D8A00BA21CA /* Build configuration list for PBXProject "ParticleMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C209F7E51C870D8A00BA21CA /* Debug */,
+				C209F7E61C870D8A00BA21CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C209F7E71C870D8A00BA21CA /* Build configuration list for PBXNativeTarget "ParticleMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C209F7E81C870D8A00BA21CA /* Debug */,
+				C209F7E91C870D8A00BA21CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C209F7D81C870D8A00BA21CA /* Project object */;
+}
